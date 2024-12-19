@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot - AI</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="chat_container"></div>
+
+      <div class="form-container">
+        <form>
+          <textarea
+            name="prompt"
+            rows="1"
+            cols="1"
+            placeholder="Message Chatbot..."
+            id="prompt"
+          ></textarea>
+          <button type="submit" id="generateBtn">
+            <img src="/img/send.png" alt="send" />
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="./src/script.js"></script>
+  </body>
+</html>
